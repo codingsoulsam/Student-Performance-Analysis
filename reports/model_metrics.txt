@@ -1,0 +1,11 @@
+=== Model Validation Comparison ===
+Gaussian Naive Bayes: Recall=0.733, F1=0.564, Acc=0.825
+Weighted Logistic Regression: Recall=0.6, F1=0.529, Acc=0.835
+Decision Tree Classifier: Recall=0.467, F1=0.412, Acc=0.794
+Random Forest Classifier: Recall=0.4, F1=0.48, Acc=0.866
+
+=== Selected Model: Gaussian Naive Bayes (Holdout Test Results) ===
+Accuracy: 0.786
+Recall: 0.733
+Precision: 0.393
+F1-Score: 0.512

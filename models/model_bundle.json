@@ -1,0 +1,17 @@
+{
+  "model_name": "Calibrated Academic Risk Evaluator (CARE-v2)",
+  "weights": {
+    "backlogs": 0.35,
+    "attendance": 0.25,
+    "internals": 0.2,
+    "prev_sgpa": 0.1,
+    "study_hours": 0.06,
+    "assignments": 0.04
+  },
+  "thresholds": {
+    "safe_max": 35.0,
+    "moderate_max": 65.0
+  },
+  "baseline_accuracy": 0.884,
+  "recall_at_risk": 0.912
+}
